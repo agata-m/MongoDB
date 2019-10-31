@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/nodeappdatabse', {
+mongoose.connect('mongodb+srv://agat:<Perseverance92>@cluster0-3ttre.mongodb.net/test?retryWrites=true&w=majority', {
     useMongoClient: true
 });
 
